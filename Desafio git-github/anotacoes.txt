@@ -1,0 +1,13 @@
+Comandos para lembrar:
+
+git clone "url"
+- clonar um repositorio.
+
+git init
+- comando único que você usa durante a configuração inicial de um novo repositório.
+
+git status
+- exibe as condições do diretório de trabalho e da área de staging.
+
+git add "arquivo" | OBS: pode ser usado '*' ou '.' para incluir todos arquivos 
+- incluir atualizações a um arquivo específico no próximo commit
