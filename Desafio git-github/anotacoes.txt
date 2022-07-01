@@ -11,3 +11,9 @@ git status
 
 git add "arquivo" | OBS: pode ser usado '*' ou '.' para incluir todos arquivos 
 - incluir atualizações a um arquivo específico no próximo commit
+
+git commit -m "descrição"
+- usado para criar um instantâneo das alterações preparadas em um cronograma de um histórico de projetos do Git.
+
+git push origin main
+- usado para enviar o conteúdo do repositório local para um repositório remoto
