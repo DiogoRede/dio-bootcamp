@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align self</title>
+
+    <style>
+        .flex-container{
+            max-width: 350px;
+            border: 2px solid black;
+            margin-bottom: 10px;
+            display: flex;
+        }
+        .align-container{
+            align-items: center;
+        }
+        .item{
+            background-color: yellow;
+            color: black;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .center{
+            align-self: center;
+        }
+        .start{
+            align-self: flex-start;
+        }
+        .end{
+            align-self: flex-end;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+        .stretch{
+            align-self: stretch;
+        }
+        .auto{
+            align-self: auto;
+        }
+        .direction{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>ROW</h1>
+    <section class="flex-container align-container">
+        <div class="item auto">ABC</div>
+        <div class="item auto">DFG</div>
+        <div class="item auto">123</div>
+        <div class="item auto">ABCDFG 1234 1234. ITEM 4.</div>
+    </section>
+
+    <section class="flex-container">
+        <div class="item center">ABC</div>
+        <div class="item start">DFG</div>
+        <div class="item stretch">123 123 123 123 123 123 123 123 123 123 </div>
+        <div class="item end">ABCDFG 1234 1234. ITEM 4.</div>
+    </section>
+
+    <section class="flex-container">
+        <div class="item center">ABC</div>
+        <div class="item start">DFG</div>
+        <div class="item stretch">123 123 123 123 123 123 123 123 123 123 </div>
+        <div class="item end">ABCDFG 1234 1234. ITEM 4.</div>
+    </section>
+
+    <h1>COLUMN</h1>
+    <section class="flex-container align-container direction">
+        <div class="item auto">ABC</div>
+        <div class="item auto">DFG</div>
+        <div class="item auto">123</div>
+        <div class="item auto">ABCDFG 1234 1234. ITEM 4.</div>
+    </section>
+
+    <section class="flex-container direction">
+        <div class="item center">ABC</div>
+        <div class="item start">DFG</div>
+        <div class="item stretch">123 123 123 123 123 123 123 123 123 123 </div>
+        <div class="item end">ABCDFG 1234 1234. ITEM 4.</div>
+    </section>
+
+    <section class="flex-container direction">
+        <div class="item start">ABC</div>
+        <div class="item center">DFG</div>
+        <div class="item stretch">123 123 123 123 123 123 123 123 123 123 </div>
+        <div class="item end">ABCDFG 1234 1234. ITEM 4.</div>
+    </section>
+
+</body>
+</html>
