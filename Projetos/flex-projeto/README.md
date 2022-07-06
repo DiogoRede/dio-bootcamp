@@ -5,3 +5,5 @@
 
 # Algumas imagens do projeto
 ![teste](https://github.com/DiogoRede/dio-bootcamp/blob/main/Projetos/flex-projeto/images/tela01.png)
+![teste](https://github.com/DiogoRede/dio-bootcamp/blob/main/Projetos/flex-projeto/images/tela02.png)
+![teste](https://github.com/DiogoRede/dio-bootcamp/blob/main/Projetos/flex-projeto/images/tela03.png)
